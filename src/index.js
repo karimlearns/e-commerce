@@ -8,3 +8,11 @@ import '@fortawesome/fontawesome-free/js/all.min.js';
 
 document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(item => new bootstrap.Tooltip(item));
 
+// Start The Most Selling
+document.querySelectorAll('.add-to-card-btn').forEach(item => {
+    item.addEventListener('click', () => {
+        alert('أضيف المنتج إلى عربة الشراء');
+    })
+})
+// End The Most Selling
+
