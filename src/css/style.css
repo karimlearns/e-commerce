@@ -237,6 +237,7 @@ body {
     border: 2px solid #FFE7EA;
     padding: 8px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .custom-thumbnail:hover {
@@ -299,17 +300,50 @@ body {
 }
 
 .custom-carousel-indicators2 {
-    bottom: -70px !important;
+    bottom: -20px !important;
 }
 
-.custom-carousel-indicators2>li {
+.custom-carousel-indicators2 li {
     width: 13px !important;
     height: 13px !important;
     margin: 2px !important;
     background-color: #dbdbdb !important;
 }
 
-.custom-carousel-indicators2>li.active {
-    background-color: # !important;
+.custom-carousel-indicators2 li.active {
+    background-color: #565656 !important;
 }
 /* End The Most Selling */
+
+/* Start International Brands */
+.pannel {
+    border: 4px solid #EEF0EA;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.pannel h4,
+.pannel .price {
+    font-size: 130%;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.custom-text-muted {
+    color: #A9A9A9;
+}
+
+.arrow-btn {
+    background-color: #fff;
+    color: #868686;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#row-brands .heading {
+    border-top: 1px solid #EEF0EA;
+    padding-top: 25px;
+}
+/* End International Brands */
