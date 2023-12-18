@@ -15,4 +15,7 @@ document.querySelectorAll('.add-to-card-btn').forEach(item => {
     })
 })
 // End The Most Selling
+// Start copyright date
+document.querySelector('.thisYear').textContent = `${new Date().getFullYear()}`;
+// End copyright date
 
