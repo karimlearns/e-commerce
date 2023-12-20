@@ -52,7 +52,7 @@ document.querySelectorAll('.quantity').forEach(item => {
 document.querySelectorAll('[data-remove-from-card]').forEach(item => {
     item.addEventListener('click', () => {
         item.closest('[data-product-info]').remove();
-        
+
         calculateTotalPrice();
     })
 })
@@ -70,6 +70,63 @@ function calculateTotalPrice() {
         document.querySelector('#total-price-for-all-product').innerHTML = totalPriceForAllProduct;
 }
 // End
+
+// Start payment Page
+// Select "Choose City"
+const citiesByCountry = {
+    sa: ['جدة' ,'الرياض'],
+    eg: ['القاهرة' ,'الإسكندرية'],
+    jo: ['عمان' ,'الزرقاء'],
+    sy: ['حلب' ,'حماة', 'دمشق']
+}
+
+document.querySelectorAll('select[name="country"]').forEach(item => {
+    item.addEventListener('change', () => {
+        const country = item.value;
+        const cities = citiesByCountry[country];
+
+        document.querySelectorAll('#paymentcities option').forEach(option => option.remove())
+
+        const firstOption = document.createElement('option');
+        const optionText = document.createTextNode('إختر المدينة');
+        firstOption.appendChild(optionText);
+        firstOption.setAttribute('value', '');
+        firstOption.setAttribute('disabled', 'true');
+        firstOption.setAttribute('selected', 'true');
+
+        const city_options = document.getElementById('paymentcities');
+        city_options.appendChild(firstOption);
+
+        cities.forEach(city => {
+            const newOption = document.createElement('option');
+            const optionText = document.createTextNode(city);
+            newOption.appendChild(optionText);
+            newOption.setAttribute('value', city);
+            city_options.appendChild(newOption);
+        })
+    })
+})
+
+// START HIDDEN PAYMENT INPUTS
+document.querySelectorAll('#form-checkout input[name="payment-method"]').forEach(item => {
+    item.addEventListener('change', () => {
+        const paymentMethod = item.value;
+
+        const creditCardInputs = document.querySelectorAll('#credit_card_info input');
+
+        if (paymentMethod === 'on_delivery') {
+            creditCardInputs.forEach(input => {
+                input.style.display = 'none';
+            })
+        } else {
+            creditCardInputs.forEach(input => {
+                input.style.display = 'block';
+            })
+        }
+    })
+})
+// END HIDDEN PAYMENT INPUTS
+// End payment Page
 
 // Start copyright date;
 document.querySelector('.thisYear').textContent = `${new Date().getFullYear()}`;
