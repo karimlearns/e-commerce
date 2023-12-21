@@ -686,6 +686,51 @@ body {
     border-color: #F8AD47 !important;
 }
 /* -------------- End Search Page ------------- */
+/* -------------- Start Contact Page -----------*/
+.position-in-google {
+    height: 250px;
+}
+
+.cont {
+    height: 269px;
+}
+
+/* .form-follow .input-follow {
+    margin-top: 15px;
+} */
+
+.form-follow label {
+    font-size: 20px;
+    color: #868686;
+    margin-bottom: 19px;
+}
+
+.send-message .title h4,
+.contact-info .title h4 {
+    padding-bottom: 15px;
+}
+
+.contact-info {
+    height: calc(191px - 30px);
+}
+
+.contact-info .title h4 {
+    border-bottom: 3px solid #EBEBEB;
+}
+
+.contact-info .phone .phone-icon,
+.contact-info .email .envelope-icon,
+.contact-info .adress .adress-icon {
+    color: #f8ad47;
+    font-size: 18px;
+}
+
+.contact-info .phone span,
+.contact-info .email span,
+.contact-info .adress span {
+    color: #868686;
+}
+/* -------------- End Contact Page -------------*/
 
 
 
@@ -823,6 +868,19 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .contact-info {
+        height: auto;
+    }
+
+    .form-follow label {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .contact-info .title h4 {
+        margin-bottom: 15px;
     }
     /* -------- End Search Page ----------- */
 }
