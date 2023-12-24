@@ -1,0 +1,11 @@
+@import './variables';
+@import './custom_table';
+@import './button';
+@import './mixins';
+@import './custom_thumbnail';
+
+.add-to-card-btn {
+    color: $brand-primary;
+    background-color: #fff;
+    font-weight: 700;
+}
