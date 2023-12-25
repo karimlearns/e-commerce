@@ -15,10 +15,7 @@ body {
     line-height: 1.5;
     color: black;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 /* Start Nav */
 .custom-navbar {
     border-bottom: 3px solid #F7F8F3;
@@ -30,6 +27,7 @@ body {
 .dropdown .custom-btn:focus {
     color: #ff3956;
 }
+
 .dropdown .categories {
     border-right: 0 !important;
     border-radius: 0;
@@ -70,7 +68,7 @@ body {
 .my-nav-link {
     color: #555555;
     font-size: 14px;
-    padding: 15px;
+    padding: 7px;
 }
 
 .custom-navbar .my-navbar-nav li.active .my-nav-link {
@@ -137,8 +135,6 @@ body {
     background-color: #F7F8F3;
 }
 
-<<<<<<< HEAD
-=======
 .custom-btn-outline-warning {
     background-color: transparent;
     border-color: #f8ad47;
@@ -154,7 +150,6 @@ body {
     color: #d86b07;
 }
 
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 .sale {
     background-color: #53CCD7;
     color: #fff;
@@ -231,14 +226,11 @@ body {
     margin-bottom: 25px;
 }
 
-<<<<<<< HEAD
-=======
 .custom-thumbnail {
     border: 2px solid #FFE7EA;
     padding: 8px;
     cursor: pointer;
     margin-bottom: 50px;
-    width: fit-content !important;
 }
 
 .custom-thumbnail:hover {
@@ -255,7 +247,6 @@ body {
     font-size: 18px;
 }
 
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 .price {
     color: #53CCD7;
 }
@@ -271,7 +262,7 @@ body {
 .overlay {
     position: absolute;
     background-color: rgba(83, 204, 215, 0.5);
-    height: 250px;
+    height: calc(100% - 16px);
     width: calc(100% - 16px);
     display: flex;
     justify-content: center;
@@ -284,15 +275,12 @@ body {
     opacity: 1;
 }
 
-<<<<<<< HEAD
-=======
 .add-to-card-btn {
     color: #53CCD7;
     background-color: #fff;
     font-weight: 700;
 }
 
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 .custom-thumbnail .sale {
     padding: 5px 10px;
     position: absolute;
@@ -419,8 +407,6 @@ body {
     height: 38px;
 }
 
-<<<<<<< HEAD
-=======
 .custom-btn-warning {
     color: #000;
     background-color: #f8ad47;
@@ -436,7 +422,6 @@ body {
     border-color: #b86d07;
 }
 
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 #footer-copyright-social {
     background-color: #151515;
     color: #303030;
@@ -576,11 +561,10 @@ body {
 /* End */
 /* End Product Page */
 
-<<<<<<< HEAD
 /* ------------------ Start checkout Page -------------------- */
-=======
+
 /* ------------------------------------------- */
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
+
 /* ٍStart checkout Page */
 .custom-heading {
     font-size: 36px;
@@ -594,8 +578,6 @@ body {
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
-=======
 .custom-table th,
 .custom-table td {
     padding: 15px;
@@ -625,13 +607,10 @@ body {
     text-align: center;
 }
 
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 #total-price-for-all-product {
     color: #000;
 }
 
-<<<<<<< HEAD
-=======
 .custom-btn-outline-danger {
     background-color: transparent;
     border-color: #ff3956;
@@ -643,7 +622,7 @@ body {
     border-color: #b9001b;
     color: #b9001b;
 }
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
+
 /* End checkout Page */
 
 /* -------------- Start Search Page ------------- */
@@ -840,13 +819,11 @@ body {
         margin-top: 8px;
         font-weight: 400;
     }
-<<<<<<< HEAD
-=======
 
     .custom-thumbnail img {
         height: 200px;
     }
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
+
     /* End The Most Selling */
     #copyright,
     #social-icons {
@@ -951,10 +928,18 @@ body {
     }
 
     .custom-thumbnail {
-        width: 100% !important;
+        min-width: 100% !important;
+        display: flex;
+        flex-direction: row;
     }
-<<<<<<< HEAD
-=======
+
+    .custom-thumbnail .sale {
+        padding: 5px 10px;
+        position: absolute;
+        left: 16px;
+        top: calc(100% - 39px);
+    }
+
     .custom-thumbnail img {
         height: 250px;
     }
@@ -962,7 +947,6 @@ body {
     #carousel-most-sold-alternative .custom-thumbnail img {
         margin: auto;
     }
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 
     #footer-nav .footer-logo {
         margin-bottom: 30px;

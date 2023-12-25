@@ -59,7 +59,7 @@ document.querySelectorAll('[data-remove-from-card]').forEach(item => {
 })
 
 function calculateTotalPrice() {
-<<<<<<< HEAD
+
     let totalPriceForAllProduct = 0;
 
     document.querySelectorAll('[data-product-info]').forEach(product => {
@@ -70,8 +70,7 @@ function calculateTotalPrice() {
         totalPriceForAllProduct = totalPriceForAllProduct + totalPriceForProduct;
     })
     document.querySelector('#total-price-for-all-product').innerHTML = totalPriceForAllProduct;
-=======
-        let totalPriceForAllProduct = 0;
+
 
         document.querySelectorAll('[data-product-info]').forEach(product => {
             const pricePerUnite = product.getAttribute('data-product-price');
@@ -81,24 +80,23 @@ function calculateTotalPrice() {
             totalPriceForAllProduct = totalPriceForAllProduct + totalPriceForProduct;
         })
         document.querySelector('#total-price-for-all-product').innerHTML = totalPriceForAllProduct;
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
+
 }
 // End
 
 // Start payment Page
 // Select "Choose City"
 const citiesByCountry = {
-<<<<<<< HEAD
+
     sa: ['جدة', 'الرياض'],
     eg: ['القاهرة', 'الإسكندرية'],
     jo: ['عمان', 'الزرقاء'],
-    sy: ['حلب', 'حماة', 'دمشق']
-=======
+    sy: ['حلب', 'حماة', 'دمشق'],
     sa: ['جدة' ,'الرياض'],
     eg: ['القاهرة' ,'الإسكندرية'],
     jo: ['عمان' ,'الزرقاء'],
     sy: ['حلب' ,'حماة', 'دمشق']
->>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
+
 }
 
 document.querySelectorAll('select[name="country"]').forEach(item => {
