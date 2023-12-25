@@ -81,25 +81,42 @@ module.exports = {
             template: "./src/index.html"
         }),
         new HtmlWebpackPlugin({
+<<<<<<< HEAD
             filename: "checkout.html",
             template: "./src/checkout.html"
         }),
         new HtmlWebpackPlugin({
             filename: "contact.html",
             template: "./src/contact.html"
+=======
+            filename: "product.html",
+            template: "./src/product.html"
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
         }),
         new HtmlWebpackPlugin({
             filename: "payment.html",
             template: "./src/payment.html"
         }),
         new HtmlWebpackPlugin({
+<<<<<<< HEAD
             filename: "product.html",
             template: "./src/product.html"
+=======
+            filename: "contact.html",
+            template: "./src/contact.html"
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
         }),
         new HtmlWebpackPlugin({
             filename: "search.html",
             template: "./src/search.html"
         }),
+<<<<<<< HEAD
+=======
+        new HtmlWebpackPlugin({
+            filename: "checkout.html",
+            template: "./src/checkout.html"
+        }),
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
         new MiniCssExtractPlugin({
             filename: "css/style.css"
         }),

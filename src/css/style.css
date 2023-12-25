@@ -15,7 +15,10 @@ body {
     line-height: 1.5;
     color: black;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 /* Start Nav */
 .custom-navbar {
     border-bottom: 3px solid #F7F8F3;
@@ -134,6 +137,24 @@ body {
     background-color: #F7F8F3;
 }
 
+<<<<<<< HEAD
+=======
+.custom-btn-outline-warning {
+    background-color: transparent;
+    border-color: #f8ad47;
+    color: #f8ad47;
+}
+
+.custom-btn-outline-warning:hover,
+.custom-btn-outline-warning:active,
+.custom-btn-outline-warning:focus,
+.custom-btn-outline-warning:active:focus,
+.custom-btn-outline-warning:active:hover {
+    border-color: #d86b07;
+    color: #d86b07;
+}
+
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 .sale {
     background-color: #53CCD7;
     color: #fff;
@@ -210,6 +231,31 @@ body {
     margin-bottom: 25px;
 }
 
+<<<<<<< HEAD
+=======
+.custom-thumbnail {
+    border: 2px solid #FFE7EA;
+    padding: 8px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    width: fit-content !important;
+}
+
+.custom-thumbnail:hover {
+    border-color: #53CCD7;
+}
+
+.custom-thumbnail img {
+    max-height: 250px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.custom-thumbnail h4 {
+    font-size: 18px;
+}
+
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 .price {
     color: #53CCD7;
 }
@@ -238,6 +284,15 @@ body {
     opacity: 1;
 }
 
+<<<<<<< HEAD
+=======
+.add-to-card-btn {
+    color: #53CCD7;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 .custom-thumbnail .sale {
     padding: 5px 10px;
     position: absolute;
@@ -364,6 +419,24 @@ body {
     height: 38px;
 }
 
+<<<<<<< HEAD
+=======
+.custom-btn-warning {
+    color: #000;
+    background-color: #f8ad47;
+    border-color: #f8ad47;
+}
+
+.custom-btn-warning:hover,
+.custom-btn-warning:focus,
+.custom-btn-warning:active,
+.custom-btn-warning:active:focus,
+.custom-btn-warning:active:hover {
+    background-color: #b86d07;
+    border-color: #b86d07;
+}
+
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 #footer-copyright-social {
     background-color: #151515;
     color: #303030;
@@ -503,7 +576,11 @@ body {
 /* End */
 /* End Product Page */
 
+<<<<<<< HEAD
 /* ------------------ Start checkout Page -------------------- */
+=======
+/* ------------------------------------------- */
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 /* ٍStart checkout Page */
 .custom-heading {
     font-size: 36px;
@@ -517,10 +594,56 @@ body {
     margin-left: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    font-size: 120%;
+    vertical-align: middle;
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+}
+
+.custom-table h4 {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.custom-table th {
+    color: #C2C2C2;
+    font-weight: normal;
+}
+
+.custom-table th:first-child,
+.custom-table td:first-child {
+    width: 50%;
+}
+
+.custom-table th:not(:first-child),
+.custom-table td:not(:first-child) {
+    text-align: center;
+}
+
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 #total-price-for-all-product {
     color: #000;
 }
 
+<<<<<<< HEAD
+=======
+.custom-btn-outline-danger {
+    background-color: transparent;
+    border-color: #ff3956;
+    color: #ff3956;
+}
+
+.custom-btn-outline-danger:hover {
+    background-color: transparent;
+    border-color: #b9001b;
+    color: #b9001b;
+}
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 /* End checkout Page */
 
 /* -------------- Start Search Page ------------- */
@@ -717,6 +840,13 @@ body {
         margin-top: 8px;
         font-weight: 400;
     }
+<<<<<<< HEAD
+=======
+
+    .custom-thumbnail img {
+        height: 200px;
+    }
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
     /* End The Most Selling */
     #copyright,
     #social-icons {
@@ -823,6 +953,16 @@ body {
     .custom-thumbnail {
         width: 100% !important;
     }
+<<<<<<< HEAD
+=======
+    .custom-thumbnail img {
+        height: 250px;
+    }
+
+    #carousel-most-sold-alternative .custom-thumbnail img {
+        margin: auto;
+    }
+>>>>>>> 1a941935939b0c3a546c75a33ebea3f8f8eca10a
 
     #footer-nav .footer-logo {
         margin-bottom: 30px;
